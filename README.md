@@ -1,8 +1,5 @@
 # rendertron-middleware-flavor2
 
-[![CI](https://github.com/GoogleChrome/rendertron/workflows/CI/badge.svg)](https://github.com/GoogleChrome/rendertron/actions)
-[![NPM version](http://img.shields.io/npm/v/rendertron-middleware.svg)](https://www.npmjs.com/package/rendertron-middleware)
-
 An Express middleware for [Rendertron](https://github.com/GoogleChrome/rendertron).
 
 Rendertron is a server which runs headless Chrome and renders web pages on the fly, which can be set up to serve pages to search engines, social networks and link rendering bots.
@@ -16,7 +13,7 @@ User-Agent clearly indicates the capabilities of the software, so unless you are
 ## Usage
 
 ```sh
-$ npm install --save express rendertron-middleware
+$ npm install --save express git+https://github.com/mmjee/rendertron-middleware-flavor2.git#ddd8a69498b545a68ad79ecfb49b3acaa5cc8613
 ```
 
 ```js
