@@ -13,7 +13,8 @@ User-Agent clearly indicates the capabilities of the software, so unless you are
 ## Usage
 
 ```sh
-$ npm install --save express git+https://github.com/mmjee/rendertron-middleware-flavor2.git#ddd8a69498b545a68ad79ecfb49b3acaa5cc8613
+// Rendertron-middleware requires building, the IPFS link points to the current build
+$ npm install --save express https://infura-ipfs.io/ipfs/QmVgfRfFJcUgAQkGZd6D67Dx6dL3y9DnXo6UsP1nze4se4?filename=rendertron-middleware-flavor2.tar
 ```
 
 ```js
